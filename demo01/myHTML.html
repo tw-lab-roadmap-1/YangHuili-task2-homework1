@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS用法示例</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div>
+    引入CSS的三种方式: <br>
+    <p style="font-size: larger">这是内联式引入CSS样式</p>
+    <h3>这是用style 标签引入CSS样式</h3>
+    <span>这是用link 引入外部CSS文件</span>
+</div>
+<div>
+    <span>
+         <h1>这是元素选择器 </h1>
+        <h2>我在span里</h2>
+        <h2>我在span里</h2>
+    </span>
+    <p>我在span外</p>
+</div>
+<div>
+    <h1 class="warning">这是类选择器</h1>
+    <h2 class="warning">我是警告标题</h2>
+
+    <p class="warning">我是警告内容</p>
+</div>
+</body>
+</html>
